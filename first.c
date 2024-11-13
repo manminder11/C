@@ -12,6 +12,8 @@ multiline comment */
 
 
 
+
+
     return 0;
 }
 
@@ -36,4 +38,37 @@ multiline comment */
 // \xhhhh - unicode character   
 // \Xhhhhhhhh - unicode character
 // \0 - null character
+
+
+// variables in C are the containers that store the data values. 
+
+// declaration of variables
+// data_type variable_name;
+// int a;
+// float b;
+// char c;
+
+// initialization of variables
+// data_type variable_name = value;
+// int a = 10;
+// float b = 20.5;
+// char c = 'A';
+
+
+
+int x = 10; // global variable
+
+// global variables are declared outside the main function and can be accessed by any function in the program.
+
+// local variables are declared inside the main function and can be accessed only within the main function.
+
+int main() {
+    int x = 20; // local variable
+    printf("%d\n", x); // 20
+
+    float GPA = 3.7;
+    printf("%f\n", GPA); // 3.7
+
+    return 0;
+}
 
